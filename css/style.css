@@ -315,11 +315,16 @@ footer .fab{
     margin: 0rem 2rem;
  
     cursor: pointer;
-    transition: margin 100ms linear;
+    transition: border-color,color,margin 100ms linear;
+
+
 }
 
 footer .fab:hover,:focus{
     margin-top:-10px;
+      color: var(--Pink);
+    border-color:var(--Pink);
+
 }
 
 
